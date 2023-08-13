@@ -1350,10 +1350,11 @@
 
     .sec04 .ttl {
         font-size: 40px;
+        padding-left: 25px;
     }
 
     .sec04 .ttl::before {
-        left: calc(50% - 160px);
+        left: calc(50% - 150px);
         top: -10px;
         width: 82px;
         height: 53px;
