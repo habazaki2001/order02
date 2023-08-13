@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=-100" />
+<meta name="format-detection" content="telephone=no" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<!-- FAVICON -->
+<link rel="icon" href="./favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+<link rel="manifest" href="./favicon/site.webmanifest">
+<!-- STYLESHEET -->
+<link rel="stylesheet" media="all" href="./css/slick.css"/>
+<link rel="stylesheet" media="all" href="./css/slick-theme.css"/>
+<link rel="stylesheet" media="all" href="./css/styles.css"/>
+<link rel="stylesheet" media="all" href="./css/responsive.css"/>
+<script src="./js/jquery.js"></script>
+
+<!-- Google Analytics start -->
+<!-- Google Analytics end -->
+
+<!-- JSON BREADCRUMBS -->
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "ホーム",
+        "item": "link_domain"
+    }]
+}
+</script>
+</head>
+
+<body id="index">
+    <div id="wrapper">
+        <header>
+            <div class="h_box">
+                <div class="inner h_inner">
+                    <!-- Header Content -->
+                    <div class="h_left flex_center pc">
+                       <a href="#"> <img src="./images/sub_logo.png" alt="プロタイムズ" width="80" height="78"></a>
+                        <h1 id="logo"><a href="#"><img src="./images/logo.png" alt="Paint Plazaペイントブラザプロタイムズ町田森野店" width="300" height="98" /></a></h1>
+                        <p class="pic"><img src="./images/header_img01.png" alt="屋根リフォーム専用サイト" width="165" height="80"></p>
+                    </div>
+                    <div class="h_left sp">
+                         <h1 id="logo"><a href="#"><img src="./images/logo_sp.png" alt="Paint Plazaペイントブラザプロタイムズ町田森野店" width="528" height="100" /></a></h1>
+                     </div>
+                    <div class="h_right">
+                        <div class="h_contact pc ">
+                            <p class="h_contact_mail"> <a href="#"><span>無料診断・ドローン点検<br>お見積りはこちら</span></a></p>
+                            <p class="h_contact_tel"><a class="tel sweetlink" href="tel:000000000"><span class="badge flex_center">通話無料！</span> 0120<span class="f_big">-30-1127</span></a><span class="time">受付　9:00~19:00　年中無休</span> </p>
+                        </div>
+                    </div>
+                    <!-- Hamburger Menu -->
+                    <div class="hamburger hamburger--3dxy">
+                        <div class="hamburger-box">
+                            <div class="hamburger-inner"></div>
+                            <p class="hamburger_text sp">メニュー</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Nav Menu -->
+                <nav>
+                    <div class="inner">
+                        <ul class="nav_list">
+                            <li><a href="#">選ばれる理由</a></li>
+                            <li class="parent">
+                                <a>雨漏りでお困りの方へ</a>
+                                <div class="sub">
+                                    <ul>
+                                        <li><a href="#">ダミーテキスト</a></li>
+                                        <li><a href="#">ダミーテキスト</a></li>
+                                        <li><a href="#">ダミーテキスト</a></li>
+                                        <li><a href="#">ダミーテキスト</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="parent">
+                                <a>解決事例</a>
+                                <div class="sub">
+                                    <ul>
+                                        <li><a href="#">ダミーテキスト</a></li>
+                                        <li><a href="#">ダミーテキスト</a></li>
+                                        <li><a href="#">ダミーテキスト</a></li>
+                                        <li><a href="#">ダミーテキスト</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">サービス</a></li>
+                            <li><a href="#">料金表</a></li>
+                            <li><a href="#">会社案内</a></li>
+                            <li><a href="#">お知らせ</a></li>
+                        </ul>
+                        <div class="block_contact sp">
+                            <p class="sub_ttl">お急ぎの場合は<span class="color_s">お電話<br class="sp"></span>が早くご案内できます</p>
+                            <p class="wrap_tel"><a class="tel sweetlink sweetlinked" href="tel:000000000">0120-30-1127</a><span class="time">受付　9:00~19:00　年中無休</span></p>
+                            <div class="wrap_btn">
+                                <p class="mail btn"><a class="bg_s" href="#">無料診断・ドローン点検<br>お見積り・お問い合わせはこちら</a></p>
+                                <p class="line btn"><a class="bg_green" href="#">LINEでらくらく無料相談<br>友だち登録はこちら</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- end #header-->
+
+        <main>
+            <!-- MainVisual start -->
+            <section class="mv">
+                <div class="container">
+                    <div class="mv_bg">
+                        <ul class="main_slider">
+                            <li class="slide_item">
+                                <img src="./images/main_visual_img01.jpg" alt="" width="1300" height="720">
+                            </li>
+                            <li class="slide_item">
+                                <img src="./images/main_visual_img02.jpg" alt="" width="1300" height="720">
+                            </li>
+                            <li class="slide_item">
+                                <img src="./images/main_visual_img03.jpg" alt="" width="1300" height="720">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- MainVisual end -->
+
+            <!-- SECTION 1 start -->
+            <section class="sec01">
+                <div class="container">
+                    <div class="inner">
+                        <div class="wrap_btn sp">
+                            <p class="btn_tel btn"><a class="tel sweetlink sweetlinked bg_m" href="tel:000000000"><span class="en">0120-30-1127 <span class="time">受付　9:00~19:00　年中無休</span></span></a></p>
+                            <p class="mail btn"><a class="bg_s" href="#">無料雨漏り調査を<br>依頼する</a></p>
+                        </div>
+                        <div class="new_blog">
+                            <p class="title flex_center">お知らせ・ブログ</p>
+                            <ul class="new_block_list">
+                                <li class="new_blog_item"><span class="date">2023.07.04</span><a href="#" class="txt">こちらに記事のタイトルがはいりますテキストダミーテキスト</a></li>
+                            </ul>
+                        </div>
+                        <div class="block flex_between">
+                          <p class="sec01_l"><img src="./images/sec01_ttl.png" alt="3冠受賞!(皆様に愛されて)" width="456" height="242"></p>
+                          <p class="sec01_r"><img src="./images/sec01_img03.png" alt="award" width="672" height="296"></p>
+                        </div>
+                        <p class="dect">100文字テキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
+                    </div>
+                </div>
+            </section>
+            <!-- SECTION 1 end -->
+
+            <!-- SECTION 2 start -->
+            <section class="sec02">
+                <div class="inner">
+                    <div class="block"> 
+                        <p class="badge">当社が「　 プロタイムズ町田森野店」の理由</p>
+                        <div class="sec02_l pc"><p><img src="./images/sec02_img02.png" alt="プロタイムズ" width="172" height="168"></p></div>
+                        <div class="sec02_r">
+                            <p class="title">ペイントプラザは<br class="sp">全国<span class="f_big">約3000社から</span><br class="sp"><span class="f_big">厳選された</span><span class="color_s">優良認定店</span>です
+                            <p class="sp sec02_r_pic"><img src="./images/sec02_img02.png" alt="プロタイムズ" width="172" height="168"></p>
+                            <p class="dect">遮熱塗料シェアNo.1塗料メーカー「アステックペイント」が運営する全国組織「プロタイムズ」。<br>なかでも当社は施工認定した約3000社から、わずか約200社が選ばれる認定制度に合格しました。<br>さらなる品質向上のため、スタッフ一同努力を重ねてまいります。</p>
+                        </div>
+                        <p class="btn"><a href="#">詳しくはこちら</a></p>
+                    </div>
+                </div>
+            </section>
+            <!-- SECTION 2 end -->
+
+            <!-- SECTION 3 start -->
+            <section class="sec03">
+                <div class="inner">
+                    <h3 class="sec03_ttl title">
+                        <span class="bg_txt en">REASON</span>
+                        <span class="sub_ttl">ペイントプラザ（プロタイムズ町田森野店）が</span><br>
+                        <span class="ja">選ばれる<span class="num">5</span>つの<span class="f_big">理由</span></span>
+                    </h3>
+                    <ul class="sec03_list">
+                        <li class="sec03_it01">
+                            <div class="temp_bl">
+                                <div class="temp_bl_txt">
+                                    <p class="title">
+                                        <span class="en">Reason 01</span>
+                                        <span class="ja">無料の雨漏り診断・ドローン点検で<br><span class="f_big color_m">「こんなところまで！」</span> <br>を抜かりなくチェック</span>
+                                    </p>
+                                    <div class="temp_bl_img sp">
+                                        <p class="badge"><span class="color_yl">最短30分で</span><br>屋根をいためず<br>調査できます！</p>
+                                        <p class="pic"><img src="./images/sec03_item01.png" alt=""></p>
+                                    </div>
+                                    <p class="dect">80文字テキストダミーテキストダミーテキストダミーテキストダミー<br>テキストダミーテキストダミーテキストダミーテキストダミーテキス<br>テキストダミーテキストダミ</p>
+                                    <p class="pic"><img src="./images/sec03_next_or.png" alt="" width="34" height="24"></p>
+                                </div>
+                                <div class="temp_bl_img pc">
+                                    <p class="badge"><span class="color_yl">最短30分で</span><br>屋根をいためず<br>調査できます！</p>
+                                    <p class="pic"><img src="./images/sec03_item01.png" alt=""></p>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                        </li>
+                        <li class="sec03_it02 dif">
+                            <div class="temp_bl reserve">
+                                <div class="temp_bl_txt">
+                                    <p class="title">
+                                        <span class="en">Reason 02</span>
+                                        <span class="ja">熟練の専門職人が<br><span>雨漏りの原因をしっかり補修</span><br><span class="f_big color_blue01">安心のW保証付き</span></span>
+                                    </p>
+                                    <div class="temp_bl_img sp">
+                                        <p class="pic"><img src="./images/sec03_item02.png" alt="" width="624" height="384"></p>
+                                    </div>
+                                    <p class="dect">80文字テキストダミーテキストダミーテキストダミーテキストダミー<br>テキストダミーテキストダミーテキストダミーテキストダミーテキス<br>テキストダミーテキストダミ</p>
+                                    <p class="pic"><img src="./images/sec03_next_blue.png" alt="" width="34" height="24"></p>
+                                </div>
+                                <div class="temp_bl_img pc">
+                                    <p class="pic"><img src="./images/sec03_item02.png" alt="" width="624" height="384"></p>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                        </li>
+                        <li class="sec03_it03 dif">
+                            <div class="temp_bl">
+                                <div class="temp_bl_txt">
+                                    <p class="title">
+                                        <span class="en">Reason 03</span>
+                                        <span class="ja">屋根リフォームの<br><span class="f_big color_m">累計対応実績3600件以上！</span><br>創業24年・地域に選ばれている<br>塗装・工事専門店
+                                        </span>
+                                    </p>
+                                    <div class="temp_bl_img sp">
+                                        <p class="badge">直接施工だから<br>価格も<br><span class="color_yl">リーズナブル</span>！</p>
+                                        <p class="pic"><img src="./images/sec03_item03.png" alt=""></p>
+                                    </div>
+                                    <p class="dect">80文字テキストダミーテキストダミーテキストダミーテキストダミー<br>テキストダミーテキストダミーテキストダミーテキストダミーテキス<br>テキストダミーテキストダミ</p>
+                                    <p class="pic"><img src="./images/sec03_next_or.png" alt="" width="34" height="24"></p>
+                                </div>
+                                <div class="temp_bl_img pc">
+                                    <p class="badge">直接施工だから<br>価格も<br><span class="color_yl">リーズナブル</span>！</p>
+                                    <p class="pic"><img src="./images/sec03_item03.png" alt=""></p>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                        </li>
+                        <li class="sec03_it04">
+                            <div class="temp_bl reserve">
+                                <div class="temp_bl_txt">
+                                    <p class="title">
+                                        <span class="en">Reason 04</span>
+                                        <span class="ja"><span class="f_sm">国内大手塗料メーカー</span><br>アステックペイントより<span class="f_big color_blue01">3年連続表彰</span><br>お客様のお住まいに<br>優良施工をお約束します</span>
+                                    </p>
+                                    <div class="temp_bl_img sp">
+                                        <p class="badge"><span class="color_yl">品質第一！</span><br>職人のこだわりは<br>ゆずれません！</p>
+                                        <p class="pic"><img src="./images/sec03_item04.png" alt="" width="624" height="384"></p>
+                                    </div>
+                                    <p class="dect">80文字テキストダミーテキストダミーテキストダミーテキストダミー<br>テキストダミーテキストダミーテキストダミーテキストダミーテキス<br>テキストダミーテキストダミ</p>
+                                    <p class="pic"><img src="./images/sec03_next_blue.png" alt="" width="34" height="24"></p>
+                                </div>
+                                <div class="temp_bl_img pc">
+                                    <p class="badge"><span class="color_yl">品質第一！</span><br>職人のこだわりは<br>ゆずれません！</p>
+                                    <p class="pic"><img src="./images/sec03_item04.png" alt="" width="624" height="384"></p>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                        </li>
+                        <li class="sec03_it05">
+                            <div class="temp_bl">
+                                <div class="temp_bl_txt">
+                                    <p class="title">
+                                        <span class="en">Reason 05</span>
+                                        <span class="ja"><span class="f_big color_m">資格保有のスタッフ</span>が<br>丁寧で分かりやすくご説明<br>ショールームで実物見本も触れられます</span>
+                                    </p>
+                                    <div class="temp_bl_img sp">
+                                        <p class="badge">じつは色や機能も<br><span class="color_yl">屋根材によって</span><br><span class="color_yl">違い</span>があるんです！</p>
+                                        <p class="pic"><img src="./images/sec03_item05.png" alt=""></p>
+                                    </div>
+                                    <p class="dect">80文字テキストダミーテキストダミーテキストダミーテキストダミー<br>テキストダミーテキストダミーテキストダミーテキストダミーテキス<br>テキストダミーテキストダミ</p>
+                                    <p class="pic"><img src="./images/sec03_next_or.png" alt="" width="34" height="24"></p>
+                                </div>
+                                <div class="temp_bl_img pc">
+                                    <p class="badge">じつは色や機能も<br><span class="color_yl">屋根材によって</span><br><span class="color_yl">違い</span>があるんです！</p>
+                                    <p class="pic"><img src="./images/sec03_item05.png" alt=""></p>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                        </li>
+                    </ul>
+                    <p class="sec03_btn btn center"><a href="#">選ばれる理由を見る</a></p>
+                </div>
+            </section>
+            <!-- SECTION 3 end -->
+
+            <!-- SECTION 4 start -->
+            <section class="sec04">
+               <div class="container">
+                <div class="inner">
+                    <h3 class="title ttl">
+                        <span class="ja">料金表</span><br>
+                        <span class="en color_m">Price</span>
+                    </h3>
+                    <p class="sec04_sub_ttl">
+                        雨漏り診断・ドローン点検・お見積もり<br class="sp"><span class="ja f_big color_red">無料</span>
+                    </p>
+                    <a class="sec04_link" href="#"><img src="./images/sec04_img04.png" alt="ドローン無料点検" width="1124" height="294"></a>
+                    <div class="block_price">
+                        <p class="block_price_ttl">屋根工事</p>
+                        <div class="content">
+                           <div class="top">
+                                <ul>
+                                    <li>
+                                        <p class="txt">屋根葺き替え工事</p>
+                                        <div class="price">
+                                            <p class="num"><span class="f_big">19,000</span>円～</p>
+                                            <p class="f_sm">1㎡あたり</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="txt">屋根重ね替え工事</p>
+                                        <div class="price">
+                                            <p class="num"><span class="f_big">10,000</span>円～</p>
+                                            <p class="f_sm">1㎡あたり</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="txt">屋根塗装工事</p>
+                                        <div class="price">
+                                            <p class="num"><span class="f_big">3,000</span>円～</p>
+                                            <p class="f_sm">1㎡あたり</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="list">
+                                    <li>
+                                        <p class="txt">雨どい工事</p>
+                                        <div class="price">
+                                            <p class="num"><span class="f_big">3,500</span>円～</p>
+                                            <p class="f_sm">1㎡あたり</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="txt">漆喰工事</p>
+                                        <div class="price">
+                                            <p class="num"><span class="f_big">20,000</span>円～</p>
+                                            <p class="f_sm">1㎡あたり</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                           </div>
+                           <div class="bottom">
+                                <p class="bottom_ttl">
+                                    <span class="color_blue01 f_big">ど</span>
+                                    <span class="color_blue01 f_big">ん</span>
+                                    <span class="color_blue01 f_big">な</span>
+                                    <span class="color_blue01 f_big">タ</span>
+                                    <span class="color_blue01 f_big">イ</span>
+                                    <span class="color_blue01 f_big">プ</span>
+                                    <span class="color_blue01 f_big">の</span>
+                                    <span class="color_blue01 f_big">屋</span>
+                                    <span class="color_blue01 f_big">根</span><br class="sp">
+                                    でもおまかせください！
+                                </p>
+                                <div class="bottom_wrap">
+                                    <p class="p_01"><img src="./images/sec04_img12.png" alt="" width="262" height="560"></p>
+                                    <ul>
+                                        <li>
+                                            <p class="pic"><img src="./images/sec04_img09.png" alt="" width="216" height="216"></p>
+                                            <p class="txt">スレート屋根</p>
+                                        </li>
+                                        <li>
+                                            <p class="pic"><img src="./images/sec04_img10.png" alt="" width="216" height="216"></p>
+                                            <p class="txt">金属屋根</p>
+                                            <p class="sub_txt">（ガルバリウム銅板）</p>
+                                        </li>
+                                        <li>
+                                            <p class="pic"><img src="./images/sec04_img11.png" alt="" width="216" height="216"></p>
+                                            <p class="txt">瓦屋根</p>
+                                        </li>
+                                    </ul>
+                                    <p class="p_02"><img src="./images/sec04_img13.png" alt="" width="212" height="514"></p>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                    <p class="sec04_btn  btn center"><a href="#">料金表を見る</a></p>
+                </div>
+               </div>
+            </section>
+            <!-- SECTION 4 end -->
+            <!-- SECTION 5 start -->
+            <section class="sec05">
+                <div class="container">
+                    <div class="inner">
+                        <h3 class="ttl title dif">
+                            <span class="f_sm">実際に当社で施工されたお客様に聞いてみました！</span><br>
+                            <span class="ja">解決事例・お客様の声</span><br>
+                            <span class="en color_blue01">CASE / VOICE</span>
+                        </h3>
+                    </div>
+                    <ul class="sec05_list"> 
+                        <li class="sec05_it">
+                            <p class="pic"><img src="./images/sec05_item02.png" alt=""></p>
+                            <div class="wrap_txt">
+                                <p class="txt">町田市</p>
+                                <p class="txt">M様邸</p>
+                                <p class="txt">屋根塗装工事</p>
+                            </div>
+                            <div class="dect">テキストダミーテキストダミーテキストダミーテキスト</div>
+                        </li>
+                        <li class="sec05_it">
+                            <p class="pic"><img src="./images/sec05_item01.png" alt=""></p>
+                            <div class="wrap_txt">
+                                <p class="txt">町田市</p>
+                                <p class="txt">M様邸</p>
+                                <p class="txt">屋根塗装工事</p>
+                            </div>
+                            <div class="dect">テキストダミーテキストダミーテキストダミーテキスト</div>
+                        </li>
+                        <li class="sec05_it">
+                            <p class="pic"><img src="./images/sec05_item02.png" alt=""></p>
+                            <div class="wrap_txt">
+                                <p class="txt">町田市</p>
+                                <p class="txt">M様邸</p>
+                                <p class="txt">屋根塗装工事</p>
+                            </div>
+                            <div class="dect">テキストダミーテキストダミーテキストダミーテキスト</div>
+                        </li>
+                        <li class="sec05_it">
+                            <p class="pic"><img src="./images/sec05_item01.png" alt=""></p>
+                            <div class="wrap_txt">
+                                <p class="txt">町田市</p>
+                                <p class="txt">M様邸</p>
+                                <p class="txt">屋根塗装工事</p>
+                            </div>
+                            <div class="dect">テキストダミーテキストダミーテキストダミーテキスト</div>
+                        </li>
+                    </ul>
+                    <p class="sec05_btn btn center"><a href="#">解決事例・お客様の声を見る</a></p>
+                </div>
+            </section>
+            <!-- SECTION 5 end -->
+            <!-- SECTION 6 start -->
+            <section class="sec06">
+                <div class="inner">
+                    <div class="block_gg">
+                        <p class="badge flex_center">おかげさまで</p>
+                        <h3 class="title"><span class="f_big en">Google</span><span class="num color_red en">5.0</span><span class="txt">評価を獲得！</span><span class="f_sm">※2023年8月時点</span></h3>
+                        <p class="sub_ttl"><span class="color_m">たくさんのクチコミ</span><br class="sp">をお寄せいただきました！</p>
+                        <div class="rate_gg">
+                            <img src="./images/sec06_img05.png" alt="Google5.0評価を獲得！" width="1180" height="80">
+                        </div>
+                        <p class="sec06_btn btn center"><a href="#">Googleのクチコミはこちら</a></p>
+                    </div>
+                </div>
+            </section>
+            <!-- SECTION 6 end -->
+            <!-- SECTION 7 start -->
+            <section class="sec07">
+                <div class="inner">
+                    <h3 class="ttl title">
+                        <span class="f_sm">ペイントプラザのサービス</span><br>
+                        <span class="ja">工事メニュー</span><br>
+                        <span class="en color_m">MENU</span>
+                        <span class="bg_txt">SERVICE</span>
+                    </h3>
+                    <p class="sec07_dect dect">80文字テキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミ</p>
+                    <ul>
+                        <li class="sec07_it bg_m">
+                            <p class="title">屋根塗装</p>
+                            <div class="wrap">
+                                <p class="pic"><img src="./images/sec07_item01.png" alt="" width="150" height="120"></p>
+                                <p class="dect">80文字テキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミ</p>
+                            </div>
+                            <p class="bg_txt color_m">Menu<span>01</span></p>
+                        </li>
+                        <li class="sec07_it is02 bg_blue01">
+                            <p class="title">屋根カバー工法</p>
+                            <div class="wrap">
+                                <p class="pic"><img src="./images/sec07_item02.png" alt="" width="150" height="120"></p>
+                                <p class="dect">80文字テキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミ</p>
+                            </div>
+                            <p class="bg_txt color_blue01">Menu<span>02</span></p>
+                        </li>
+                        <li class="sec07_it is03 bg_blue02">
+                            <p class="title">葺き替え工事</p>
+                            <div class="wrap">
+                                <p class="pic"><img src="./images/sec07_item03.png" alt="" width="150" height="120"></p>
+                                <p class="dect">80文字テキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミ</p>
+                            </div>
+                            <p class="bg_txt color_blue02">Menu<span>03</span></p>
+                        </li>
+                    </ul>
+                    <p class="sec07_btn btn center"><a href="#">サービス一覧を見る</a></p>
+                </div>
+            </section>
+            <!-- SECTION 7 end -->
+            <!-- SECTION 8 start -->
+            <section class="sec08">
+                <div class="inner">
+                    <h3 class="ttl title">
+                        <span class="f_sm">雨漏り・屋根修理にまつわる</span><br>
+                        <span class="ja">お役立ちコラム</span><br>
+                        <span class="en color_m">COLUMN</span>
+                        <span class="bg_txt color_m">COLUMN</span>
+                    </h3>
+                    <ul>
+                        <li>
+                            <div class="wrap">
+                                <img src="./images/sec08_img01.png" alt="" width="130" height="130">
+                                <p class="txt">雨漏りの原因は？<br><span class="f_big">調査方法について</span></p>
+                            </div>
+                            <p class="dect">80文字テキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミ</p>
+                        </li>
+                        <li class="is02">
+                            <div class="wrap">
+                                <img src="./images/sec08_img02.png" alt="" width="130" height="130">
+                                <p class="txt">怪しい訪問営業に注意！<br><span class="f_big">業者の選び方</span></p>
+                            </div>
+                            <p class="dect">80文字テキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミ</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- SECTION 8 end -->
+            <!-- SECTION 9 start -->
+            <section class="sec09">
+                <div class="container">
+                    <div class="inner">
+                        <h3 class="ttl title">
+                            <span class="ja"><span class="txt_dot">最</span><span class="txt_dot">短</span><span class="txt_dot">即</span><span class="txt_dot">日</span>対応！<br class="sp">スピード解決いたします</span><br>
+                            <span class="f_sm">無料雨漏り診断・ドローン点検・お見積もりのお問い合わせ</span>
+                        </h3>
+                        <div class="block_contact">
+                            <p class="sub_ttl">お急ぎの場合は<span class="color_s">お電話<br class="sp"></span>が早くご案内できます</p>
+                            <p class="wrap_tel"><a class="tel sweetlink sweetlinked" href="tel:000000000">0120-30-1127</a><span class="time">受付　9:00~19:00　年中無休</span></p>
+                            <div class="wrap_btn">
+                                <p class="mail btn"><a class="bg_s" href="#">無料診断・ドローン点検<br>お見積り・お問い合わせはこちら</a></p>
+                                <p class="line btn"><a class="bg_green" href="#">LINEでらくらく無料相談<br>友だち登録はこちら</a></p>
+                            </div>
+                            <p class="dect">メールとLINEは24時間受付中です！</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- SECTION 9 end -->
+            <!-- SECTION 10 start -->
+            <section class="sec10">
+                <div class="inner sec10_block">
+                    <div class="top"> 
+                        <a href="#"><img src="./images/sec10_img01.png" alt="" width="950" height="150"></a>
+                    </div>
+                    <div class="bottom">
+                        <a href="#"><img src="./images/sec10_img02.png" alt="" width="96" height="80"></a>
+                        <a href="#"><img src="./images/sec10_img03.png" alt="" width="112" height="82"></a>
+                        <a href="#"><img src="./images/sec10_img04.png" alt="" width="256" height="86"></a>
+                        <a href="#"><img src="./images/sec10_img05.png" alt="" width="" height=""></a>
+                        <a href="#"><img src="./images/sec10_img06.png" alt="" width="" height=""></a>
+                    </div>
+                </div>
+            </section>
+            <!-- SECTION 10 end -->
+
+        </main>
+        <!-- end #main-->
+
+        <footer>
+            <!-- FOOTER TOP -->
+            <section class="ft_top">
+                <div class="container">
+                    <div class="ft_map">
+                        <div class="ft_map_content">
+                            <div class="block">
+                                <p class="sub_txt">来場はもちろん無料！</p>
+                                <p class="txt ja">ショールーム<span class="f_sm">で</span><br>実物サンプル体験<br><span class="f_sm">してみませんか？</span></p>
+                                <div class="wrap_btn">
+                                    <p class="block_btn"><a href="#">駐車場完備</a></p>
+                                    <p class="block_btn"><a href="#">ひろびろ空間</a></p>
+                                </div>
+                            </div>
+                            <p class="btn"><a href="#">予約はこちら</a></p>
+                        </div>
+                        <div class="ft_map_iframe">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.1580697848062!2d106.72046571533438!3d10.799202861724577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528a0ce233dbd%3A0x53196d717fefc931!2sEBM%20Tower!5e0!3m2!1sen!2s!4v1669183836568!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FOOTER LINK -->
+
+            <section class="ft_bottom pc">
+                <div class="inner flex_between">
+                    <div class="ft_info">
+                        <p class="ft_info_logo"><a href="#"><img src="./images/ft_sub_logo.png" alt="" width="296" height="258"></a></p>
+                        <p class="ft_info_add">株式会社ペイントプラザ<br>（プロタイムズ町田森野店）</p>
+                        <p class="ft_info_tel">〒194-0022<br>東京都町田市森野6-379-1<br><span>tel:0120-30-1127</span>
+                        </p>
+                    </div>
+                    <div class="ft_wrap_links">
+                        <div class="ft_link">
+                            <ul class="row_2">
+                                <li class="big"><p>雨漏りでお困りの方へ</p></li>
+                                <li><a href="#">雨漏りの原因は？調査方法について</a></li>
+                                <li><a href="#">業者の選び方</a></li>
+                                <li class="big"><p>サービス</p></li>
+                                <li><a href="#">サービス一覧</a></li>
+                                <li><a href="#">ご利用の流れ</a></li>
+                                <li><a href="#">料金表</a></li>
+                                <li><a href="#">保証について</a></li>
+                            </ul>
+                            <ul>
+                                <li class="big"><p>会社案内</p></li>
+                                <li><a href="#">ペイントプラザが選ばれる理由</a></li>
+                                <li><a href="#">代表挨拶</a></li>
+                                <li><a href="#">会社概要</a></li>
+                                <li><a href="#">アクセス</a></li>
+                                <li><a href="#">スタッフ紹介</a></li>
+                                <li><a href="#">よくあるご質問</a></li>
+                            </ul>
+                            <ul>
+                                <li class="big"><p>解決事例・お客様の声</p></li>
+                                <li class="big"><p>お知らせ・ブログ</p></li>
+                                <li class="big"><p>無料雨漏り診断・お問い合わせ</p></li>
+                            </ul>
+                        </div>
+                        <div class="ft_link_blank">
+                            <ul>
+                                <li class="item is01">
+                                    <a href="#"><img src="./images/ft_link_blank_img01.png" alt=""></a>
+                                </li>
+                                <li class="item is02">
+                                    <a href="#"><img src="./images/ft_link_blank_img02.png" alt=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <address>Copyright &copy;2023 株式会社ペイントプラザ All Rights Reserved.</address>
+
+            <!-- FUNCTION CONTACT SP -->
+            <ul class="sp_contact sp">
+                <li class="sp_contact_tel"><a class="sweetlink" href="tel:000000000"><span>000000000</span></a></li>
+                <li class="sp_contact_mail"><a href="#"><span>ダミーテキスト</span></a></li>
+            </ul>
+        </footer>
+
+        <p class="to_top"><img src="./images/btn_top.png" alt="トップに戻る" /></p>
+        <div class="to_social">
+            <a class="to_social_philo" href="#"><img src="./images/logo_pt.png" alt=""></a>
+            <a href="#"><img src="./images/logo_yt.png" alt=""></a>
+        </div>
+        <!-- end #footer -->
+    </div>
+
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/sweetlink.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/top.js"></script>
+</body>
+
+</html>
